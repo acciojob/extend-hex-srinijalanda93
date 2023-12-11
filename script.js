@@ -3,7 +3,7 @@ const extendHex = (shortHex) => {
   let isCapital = false; // initialize as true
   let output = "#"; // fix the typo
 
-  while (i < shortHex.length - 1) { // fix the loop condition
+  while (i < shortHex.length ) { // fix the loop condition
     let asciiCode = shortHex[i].charCodeAt(0);
     if (asciiCode >= 65 && asciiCode <= 90) {
       isCapital = true; // set to true when character is uppercase
